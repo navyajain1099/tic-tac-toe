@@ -31,15 +31,38 @@ body
     box-shadow: 0.8vmin;
     font-size: 10vmin;
     color: crimson;
+    background-color: bisque;
+    color: brown;
    }
-   #rst-btn
+   #reset-btn
    {
-    padding: 0.9rem;
-    
+    margin-top: 0.2vmin;
+    padding: 0.4rem;  
     background-color: black;
-    font-size: 1cm;
+    font-size: 0.8cm;
     color: antiquewhite;
     border-radius: 0.1cm;
     border: none;
    }
-   
+   #new-btn
+   {
+    padding: 0.1rem;  
+    background-color: black;
+    font-size: 0.8cm;
+    color: antiquewhite;
+    border-radius: 0.1cm;
+    border: none;
+   }
+   #msg
+   {
+    color: bisque;
+    font-size: 5vmin;
+   }
+   .msg-container
+   {
+    margin-bottom: 6vmin;
+   }
+   .hide
+   {
+    display : none;
+   }
